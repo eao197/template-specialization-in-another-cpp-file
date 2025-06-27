@@ -11,8 +11,12 @@ struct Common
 {
 	void
 	say()
+#if NO_COMMON_IMPL
+;
+#else
 	{
 		std::cout << "Common implementation" << std::endl;
 	}
+#endif
 };
 
