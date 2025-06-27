@@ -8,7 +8,7 @@ g++ -o test_gcc main.cpp a.cpp b.cpp
 Проверить посредством VC++:
 
 ```cmd
-cl -Fetest_vc main.cpp a.cpp b.cpp
+cl -Fetest_vc -EHsc main.cpp a.cpp b.cpp
 test_vc
 ```
 
